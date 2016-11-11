@@ -8,7 +8,7 @@ body{
   border-radius: 0px;
 }
 
-.navbar-default {
+.navbar, .navbar.navbar-default {
   background-color: #00BFDE;
   border-bottom-color: #0000ff;
 }

@@ -1,8 +1,10 @@
 <html>
 <head>
 	<title>Task 1 Implement HTML, CSS, JS With Bootsrap & Material Design</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/material-design/bootstrap-material-design.css">
+    <link rel="stylesheet" type="text/css" href="css/material-design/ripples.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -25,8 +27,9 @@
 			<img src="img/riku.jpg" class="avatar">
 		</div>
 
-		<div class="col-md-offset-1 col-md-8">
+		<div class="col-md-offset-1 col-md-8 well bs-component">
 			<form class="form-horizontal" target="">
+			  <fieldset>
 				<div class="form-group">
 					<label class="control-label col-md-3">Email</label>
 					<div class="col-md-8">
@@ -41,9 +44,10 @@
 				</div>
 				<div class="form-group">
 					<div class="col-sm-12">
-		              	<button type="submit" class="btn btn-default">Submit</button>
+		              	<button type="submit" class="btn btn-raised btn-default">Submit</button>
 		            </div>		
 				</div>
+			  </fieldset>
 			</form>
 		</div>
 	</div>
@@ -51,4 +55,9 @@
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/material-design/material.js"></script>
+    <script type="text/javascript" src="js/material-design/ripples.js"></script>
+    <script>
+      $.material.init();
+    </script>
 </html>
